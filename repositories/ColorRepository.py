@@ -2,7 +2,7 @@ import requests
 
 class ColorRepository(object):
 
-  _base_url = "http://10.0.0.151:3000/best_friend_lights"
+  _base_url = "friendshiplampscce.gearhostpreview.com"
 
   def get_current_color(self, current_color_index):
     try:
